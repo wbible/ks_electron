@@ -54,6 +54,8 @@ function createWindow () {
   // 윈도우가 닫힐 때 발생되는 이벤트다.
   mainWindow.on('closed', () => {
     mainWindow = null
+    subWindow = null
+    app.quit()
   })
 }
 
