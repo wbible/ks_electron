@@ -1,0 +1,22 @@
+{
+  "name": "ks_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbible/ks_electron.git"
+  },
+  "author": "WJ Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wbible/ks_electron/issues"
+  },
+  "homepage": "https://github.com/wbible/ks_electron#readme",
+  "dependencies": {
+    "electron": "^11.1.1"
+  }
+}
